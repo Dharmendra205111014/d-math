@@ -1,5 +1,5 @@
 const _Multiplication = (...a) => {
-    var result = 0;
+    var result = 1;
     a.forEach(function(num) {
         if (typeof num === 'number' && typeof result === 'number') {
             result *= num;
